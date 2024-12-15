@@ -1,14 +1,22 @@
 [Title]Mission in Snowdriftland
-[Collect Crystal]CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel);
-[Infinite Jump]Chubby.I.controller.AddVerticalForce(40f);
-[Open Console]Loader.Load.AddComponent<Console>();
+[Collect Crystal]
+CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel);
+[Infinite Jump]
+Chubby.I.controller.AddVerticalForce(40f);
+[Open Console]
+Loader.Load.AddComponent<Console>();
 
 [Title]Super Bunny Man
-[Open Dev Console]SickDev.DevConsole.DevConsole.singleton.ToggleOpen();
-[Release Mouse]SickDev.DevConsole.DevConsole.singleton.commandsManager.Execute("Cursor.set_visible false");
-[Quit]Application.Quit();
+[Open Dev Console]
+SickDev.DevConsole.DevConsole.singleton.ToggleOpen();
+[Release Mouse]
+SickDev.DevConsole.DevConsole.singleton.commandsManager.Execute("Cursor.set_visible false");
+[Quit]
+Application.Quit();
 
 
 [Title]Untitled Goose Game
-[Open Console]Loader.Load.AddComponent<Console>();
-[Quit]Application.Quit();
+[Open Console]
+Loader.Load.AddComponent<Console>();
+[Quit]
+Application.Quit();

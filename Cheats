@@ -1,6 +1,6 @@
 [Title]Mission in Snowdriftland
 [Collect Crystal]CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel);
-[Infinite Jump]"Player" Chubby I.controller.AddVerticalForce(40f);
+[Infinite Jump]"Player" "Chubby" I.controller.AddVerticalForce(40f);
 [Open Console]Loader.Load.AddComponent<Console>();
 [Open Console2]Load.AddComponent<Console>();
 [Log Console]GameObject.Find("ModBrowser").GetComponent<Console>().Log("Test", "Test", LogType.Error);

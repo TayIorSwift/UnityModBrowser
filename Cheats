@@ -5,7 +5,7 @@
 [Dance], Chubby, Chubby, ShowFinalDance()
 [Disable Damage], Chubby, Health, DamageDisabled()
 [Enable Damage], Chubby, Health, DamageEnabled()
-[Collect Crystal], HUD_Crystals, CrystalManager, CollectCrystal()
+[Collect Crystal], HUD_Crystals, CrystalManager, CollectCrystal(1)
 
 
 

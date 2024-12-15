@@ -1,10 +1,11 @@
 [Title]Mission in Snowdriftland
 [Collect Crystal], HUD_Crystals, CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel)
-[Infinite Jump], Player, CorgiController, AddVerticalForce(40f)
+[Infinite Jump], Chubby, CorgiController, AddVerticalForce(40f)
 [Open/Close Console], Mod, Loader, AddConsole()
-[Dance], Player, Chubby, ShowFinalDance()
-[Enable Damage], Player, Health, DamageEnabled();
-[Disable Damage], Player, Health, DamageDisabled();
+[Dance], Chubby, Chubby, ShowFinalDance()
+[Enable Damage], Chubby, Health, DamageEnabled();
+[Disable Damage], Chubby, Health, DamageDisabled();
+
 
 [Title]Super Bunny Man
 [Open Dev Console]SickDev.DevConsole.DevConsole.singleton.ToggleOpen();

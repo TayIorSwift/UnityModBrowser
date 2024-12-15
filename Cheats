@@ -1,0 +1,4 @@
+Mission in Snowdriftland
+CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel);
+Chubby.I.controller.AddVerticalForce(40f);
+Loader.Load.AddComponent<Console>();

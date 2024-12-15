@@ -3,6 +3,8 @@
 [Infinite Jump], Player, CorgiController, AddVerticalForce(40f)
 [Open/Close Console], Mod, Loader, AddConsole()
 [Dance], Player, Chubby, ShowFinalDance()
+[Enable Damage], Player, Health, DamageEnabled();
+[Disable Damage], Player, Health, DamageDisabled();
 
 [Title]Super Bunny Man
 [Open Dev Console]SickDev.DevConsole.DevConsole.singleton.ToggleOpen();

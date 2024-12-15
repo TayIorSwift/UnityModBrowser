@@ -1,6 +1,6 @@
 [Title]Mission in Snowdriftland
 [Open/Close Console], Mod, Loader, AddConsole()
-[Infinite Jump], Chubby, CorgiController, AddVerticalForce(40f)
+[Super Jump], Chubby, CorgiController, AddVerticalForce(100f)
 [Mini Dance], Chubby, Chubby, ShowMiniDance()
 [Dance], Chubby, Chubby, ShowFinalDance()
 [Disable Damage], Chubby, Health, DamageDisabled()
@@ -10,7 +10,8 @@
 
 
 [Title]Super Bunny Man
-[Open Dev Console]SickDev.DevConsole.DevConsole.singleton.ToggleOpen();
+[Open/Close Console], Mod, Loader, AddConsole()
+[Open Dev Console] SickDev.DevConsole.DevConsole.singleton.ToggleOpen();
 [Release Mouse]SickDev.DevConsole.DevConsole.singleton.commandsManager.Execute("Cursor.set_visible false");
 [Quit]Application.Quit();
 

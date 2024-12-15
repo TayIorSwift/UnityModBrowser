@@ -1,8 +1,8 @@
 [Title]Mission in Snowdriftland
 [Collect Crystal],CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel)
-[Infinite Jump],Player,CorgiController,AddVerticalForce(40f)
-[Open Console],Mod,Loader,AddConsole()
-[Dance],Player,Chubby,ShowFinalDance()
+[Infinite Jump], Player, CorgiController, AddVerticalForce(40f)
+[Open Console], Mod, Loader, AddConsole()
+[Dance], Player, Chubby, ShowFinalDance()
 
 [Title]Super Bunny Man
 [Open Dev Console]SickDev.DevConsole.DevConsole.singleton.ToggleOpen();

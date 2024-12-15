@@ -3,6 +3,7 @@
 [Infinite Jump]Chubby.I.controller.AddVerticalForce(40f);
 [Open Console]Loader.Load.AddComponent<Console>();
 [Open Console2]Load.AddComponent<Console>();
+[Log Console]GameObject.Find("ModBrowser").GetComponent<Console>().Log("Test", "Test", LogType.Error);
 
 [Title]Super Bunny Man
 [Open Dev Console]SickDev.DevConsole.DevConsole.singleton.ToggleOpen();

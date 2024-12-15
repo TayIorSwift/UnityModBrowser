@@ -1,5 +1,5 @@
 [Title]Mission in Snowdriftland
-[Collect Crystal],CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel)
+[Collect Crystal], HUD_Crystals, CrystalManager.I.CollectCrystal(MISGameManager.I.currentLevel)
 [Infinite Jump], Player, CorgiController, AddVerticalForce(40f)
 [Open/Close Console], Mod, Loader, AddConsole()
 [Dance], Player, Chubby, ShowFinalDance()
